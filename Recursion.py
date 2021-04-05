@@ -23,7 +23,6 @@ class Recursion:
         return num * Recursion.factorial(num-1)
 
 
-
 if __name__ == '__main__':
     # Recursion.count_down(4)
     # print(Recursion.sum_range(4))
