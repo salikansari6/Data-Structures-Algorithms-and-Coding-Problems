@@ -47,12 +47,11 @@ class DoublyLinkedList:
             return ptr
 
     def set(self, index, value):
-        foundNode = self.get(index)
-        if foundNode is not None:
-            foundNode.value = value
+        found_node = self.get(index)
+        if found_node is not None:
+            found_node.value = value
         else:
             return False
-
 
     def push(self, value):
         node = Node(value)
